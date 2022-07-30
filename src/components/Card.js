@@ -10,7 +10,7 @@ export default function Card() {
           <h1 className="text-center text-zinc-50 font-bold text-2xl mt-2">
             Joseph Garcia
           </h1>
-          <h2 className="text-center text-rose-500 text-base">
+          <h2 className="text-center text-fuchsia-600 text-base">
             Software Dev / Web Dev
           </h2>
           <h3 className="text-center text-zinc-400 text-xs">
@@ -21,30 +21,29 @@ export default function Card() {
           <Button
             text="Instagram"
             link="https://www.instagram.com/andres.gbs/"
-            color="red"
-            colorRange="300"
+            color="bg-gradient-to-r from-yellow-200 to-purple-600"
+            hoverColor="hover:bg-white"
             image="../img/instagram.png"
           />
           <Button
             text="LinkedIn"
             link="https://www.linkedin.com/in/joseph-garcia-barrantes/"
-            color="blue"
-            colorRange="500"
+            color="bg-blue-700"
+            hoverColor="hover:bg-blue-600"
             image="../img/linkedin.png"
           />
         </div>
         <div className="px-6 py-4">
           <BottomText
-            text="Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Voluptatibus quia, nulla! Maiores et perferendis eaque,
-            exercitationem praesentium nihil."
+            title="About"
+            text="I'm Software and Web Developer with knowledge in multiple programming
+            languages like Java, JavaScript, C#, VB.net and experience with frameworks like Express.js Reactjs, Tailwind CSS, and Bootstrap"
           />
         </div>
         <div className="px-6 pb-4">
           <BottomText
-            text="Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Voluptatibus quia, nulla! Maiores et perferendis eaque,
-            exercitationem praesentium nihil."
+            title="Interests"
+            text="I 💗 🍜 and technology, I'm always looking to improve my knowledge and professional skills"
           />
         </div>
       </div>
