@@ -5,7 +5,7 @@ export default function Card() {
   return (
     <div className="flex justify-center items-center h-screen bg-gradient-to-r from-zinc-700 to-gray-900">
       <div className="max-w-sm rounded overflow-hidden shadow-lg bg-zinc-900">
-        <img className="w-full " src="../img/profile.png" alt="Profile"></img>
+        <img className="w-full " src="./img/profile.png" alt="Profile"></img>
         <div>
           <h1 className="text-center text-zinc-50 font-bold text-2xl mt-2">
             Joseph Garcia
@@ -23,14 +23,14 @@ export default function Card() {
             link="https://www.instagram.com/andres.gbs/"
             color="bg-gradient-to-r from-yellow-200 to-purple-600"
             hoverColor="hover:bg-white"
-            image="../img/instagram.png"
+            image="./img/instagram.png"
           />
           <Button
             text="LinkedIn"
             link="https://www.linkedin.com/in/joseph-garcia-barrantes/"
             color="bg-blue-700"
             hoverColor="hover:bg-blue-600"
-            image="../img/linkedin.png"
+            image="./img/linkedin.png"
           />
         </div>
         <div className="px-6 py-4">
